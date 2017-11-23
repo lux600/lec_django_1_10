@@ -27,7 +27,9 @@ git push -u origin master
 git remote add origin git@github.com:lux600/lec_django_1_10.git
 git push -u origin master
 ~~~
-                
+
+- [개별 설명 md ](./md/01-setup.md) 
+                    
 ## 참고 사이트 
 - [점프투파이썬](https://wikidocs.net/8)
 - [pip 설치](http://blog.colab.kr/11)

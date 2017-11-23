@@ -77,7 +77,7 @@ git push -u origin master
 
 ## Django Project DB 생성 
 - mysite/settings.py
-    - [setting.py](./mysite/settings.py)
+    - [setting.py](../mysite/settings.py)
     - database 내용 
 ~~~
 # Database
@@ -93,7 +93,10 @@ DATABASES = {
     
 - source 위치에서 실행 
     - makemigrations 
-        - 새롭게 django 내에서 바뀐 내용에 대한 sql 문으로 변환 가능 파일 만들기    
+        - 새롭게 django 내에서 바뀐 내용에 대한 sql 문으로 변환 가능 파일 만들기
+        - [ 참고문서 ](https://wayhome25.github.io/django/2017/03/20/django-ep6-migrations/)
+        - SQLite 브라우저
+            - http://sqlitebrowser.org/     
 ~~~
 source $ python manage.py makemigrations
 >> No changes detected
@@ -124,4 +127,53 @@ Running migrations:
   Applying auth.0008_alter_user_username_max_length... OK
   Applying sessions.0001_initial... OK 
 ~~~
+
+<br/>
+
+---
+
+## 슈퍼유저(관리자) 만들기
+- ID: admin 
+    - Email : thinkmentor@gmail.com
+    - Password : admin1234
+
+~~~
+$ python manage.py createsuperuser
+Username (leave blank to use 'cfe'): 
+Email address : 
+Password : 
+Password (agin) : 
+Superuser created successfully.
+~~~
+
+- 서버 실행
+    - http://localhost:8000
+    - http://127.0.0.1:8000 
+~~~
+$ python manage.py runserver
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2017 - 08:31:57
+Django version 1.10, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+~~~
+
+- 관리자 
+    - http://127.0.0.1:8000/admin
+    - id : admin
+    - password : admin1234
+    
+## 사용자 추가 
+- http://127.0.0.1:8000/admin
+    - id : admin
+    - password : admin1234
+- Site administration
+    - Users  
+        - 오른쪽 상단 : add users   
+      
+
+
 
