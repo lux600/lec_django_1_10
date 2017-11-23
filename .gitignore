@@ -9,8 +9,7 @@ local_settings.py
 db.sqlite3
 media
 
-### PyCharm Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
+.idea
 .idea/
 .idea/*
+.DS_Store
