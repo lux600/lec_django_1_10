@@ -1,0 +1,16 @@
+# Created by https://www.gitignore.io/api/pycharm,python,django
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+### PyCharm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+.idea/
+.idea/*
