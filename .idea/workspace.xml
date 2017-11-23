@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d0b3ca9-9933-4cdb-8eb9-a2c9636d8bc1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/md/04-shell.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/md/05-model.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shortener/utils.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_setup.md" afterPath="$PROJECT_DIR$/md/01-setup.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_start_project.md" afterPath="$PROJECT_DIR$/md/02-start_project.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/md/03-startapp.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/READ.md" afterPath="$PROJECT_DIR$/READ.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="05-model.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="05-model.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/md/05-model.md">
           <provider selected="true" editor-type-id="Gfm">
             <state />
@@ -48,6 +42,22 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="161">
                 <caret line="223" column="43" lean-forward="true" selection-start-line="223" selection-start-column="43" selection-end-line="223" selection-end-column="43" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03-startapp.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/md/03-startapp.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="462">
+                <caret line="335" column="6" lean-forward="false" selection-start-line="335" selection-start-column="6" selection-end-line="335" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -116,11 +126,11 @@
         <option value="$PROJECT_DIR$/02-start_project.md" />
         <option value="$PROJECT_DIR$/READ.md" />
         <option value="$PROJECT_DIR$/md/02-start_project.md" />
-        <option value="$PROJECT_DIR$/md/03-startapp.md" />
         <option value="$PROJECT_DIR$/md/04-shell.md" />
         <option value="$PROJECT_DIR$/shortener/models.py" />
         <option value="$PROJECT_DIR$/shortener/utils.py" />
         <option value="$PROJECT_DIR$/md/05-model.md" />
+        <option value="$PROJECT_DIR$/md/03-startapp.md" />
       </list>
     </option>
   </component>
@@ -264,7 +274,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1408" y="0" width="1398" height="929" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -273,7 +282,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1659292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1659292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943013" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -424,17 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/md/03-startapp.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2332">
-          <caret line="200" column="0" lean-forward="true" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/md/04-shell.md">
       <provider selected="true" editor-type-id="Gfm">
         <state />
@@ -477,6 +475,26 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="161">
             <caret line="223" column="43" lean-forward="true" selection-start-line="223" selection-start-column="43" selection-end-line="223" selection-end-column="43" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/03-startapp.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-2332">
+          <caret line="200" column="0" lean-forward="true" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="462">
+            <caret line="335" column="6" lean-forward="false" selection-start-line="335" selection-start-column="6" selection-end-line="335" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
