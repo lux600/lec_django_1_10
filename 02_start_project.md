@@ -72,3 +72,56 @@ git add .
 git commit -m "새로운 내용 업데이트 되었습니다."
 git push -u origin master
 ~~~    
+
+---
+
+## Django Project DB 생성 
+- mysite/settings.py
+    - [setting.py](./mysite/settings.py)
+    - database 내용 
+~~~
+# Database
+# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+~~~
+    
+- source 위치에서 실행 
+    - makemigrations 
+        - 새롭게 django 내에서 바뀐 내용에 대한 sql 문으로 변환 가능 파일 만들기    
+~~~
+source $ python manage.py makemigrations
+>> No changes detected
+~~~
+
+<br/>
+
+- makemigrations 파일 내용을 DB 에 적용하기 
+    - source/db.sqlite3 파일 생성 
+~~~
+$ python manage.py migrate
+
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Rendering model states... DONE
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying sessions.0001_initial... OK 
+~~~
+
